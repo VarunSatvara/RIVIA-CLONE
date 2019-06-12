@@ -17,6 +17,7 @@ html {
     background-size: cover;
     background-position: center;
     background-image: linear-gradient(rgba(28, 25, 65, .8), rgba(28, 25, 65, .8)), url(../images/backimage.png);
+    background-attachment: fixed;
 }
 
 .navigation {
@@ -205,7 +206,7 @@ html {
     border: 2px solid #26BAFF;
     background-color: #26BAFF;
     border-radius: 3px 3px 3px 3px;
-    
+
 }
 
 .visionbtn {
@@ -215,34 +216,37 @@ html {
     font-family: "Montserrat", sans-serif;
     padding: 25px 35px;
     border: 2px solid #26BAFF;
-    background-color:#232044;
+    background-color: #232044;
     border-radius: 3px 3px 3px 3px;
     margin-left: 10px;
-    
+
 }
-.missionbtn:hover{
+
+.missionbtn:hover {
     background-color: #232044;
 }
-.visionbtn:hover{
+
+.visionbtn:hover {
     background-color: #26BAFF;
 }
 
 .imgright {
     width: 50%;
     float: left;
-    padding: 40px 40px;
+    padding: 70px 0px 0px 40px;
 }
 
-.about-title {;
+.about-title {
     color: #232044;
     font-size: 32px;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
     letter-spacing: normal;
     margin: 0px;
-    padding: 20px 0;
+    padding: 20px 0 15px 0;
 }
-.aboutcnt{
+
+.aboutcnt {
     color: #26BAFF;
     padding-left: 7px;
 }
@@ -255,4 +259,118 @@ html {
     letter-spacing: normal;
     margin: 0;
     padding: 30px 0px 0px 0px;
+}
+
+.underline {
+    width: 120px;
+    height: 5px;
+    background-color: #26BAFF;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.ulone {
+    width: 7px;
+    height: 5px;
+    background-color: #26baff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.sectionthird {
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+    background-color: #232044;
+}
+
+.secthird {
+    width: 80%;
+    overflow: auto;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.secthird h3 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    padding-bottom: 20px;
+
+}
+
+.secthird b {
+    color: #26baff;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+}
+
+.secthird h5 {
+    color: #26baff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.secthird p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    line-height: 27px;
+    padding: 10px 100px 0px 0px;
+    margin: 0;
+}
+
+.sectionfour {
+    width: 100%;
+    overflow: auto;
+}
+
+.docpart {
+    width: 33.3%;
+    float: left;
+    padding: 10px;
+    margin: 0;
+}
+
+.partone {
+    padding: 50px 0px 0px 0px;
+}
+
+.img1 {
+    padding: 0px 0px 25px;
+}
+
+.partone h4 {
+    color: #26baff;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    line-height: 28px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.partone p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    line-height: 26px;
+    margin: 0;
+    padding-right: 20px;
 }
