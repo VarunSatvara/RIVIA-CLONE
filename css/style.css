@@ -168,3 +168,91 @@ html {
 .cnbtn:hover {
     background-color: #26BAFF;
 }
+
+.sectiontwo {
+    width: 100%;
+    margin: 0;
+    padding: 58px 0px;
+}
+
+.sectwo {
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+}
+
+.docleft {
+    float: left;
+    width: 50%;
+}
+
+.doctbtn {
+    text-align: center;
+    padding: 20px;
+}
+
+.docbtn a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.missionbtn {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    padding: 25px 35px;
+    border: 2px solid #26BAFF;
+    background-color: #26BAFF;
+    border-radius: 3px 3px 3px 3px;
+    
+}
+
+.visionbtn {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    padding: 25px 35px;
+    border: 2px solid #26BAFF;
+    background-color:#232044;
+    border-radius: 3px 3px 3px 3px;
+    margin-left: 10px;
+    
+}
+.missionbtn:hover{
+    background-color: #232044;
+}
+.visionbtn:hover{
+    background-color: #26BAFF;
+}
+
+.imgright {
+    width: 50%;
+    float: left;
+    padding: 40px 40px;
+}
+
+.about-title {;
+    color: #232044;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    margin: 0px;
+    padding: 20px 0;
+}
+.aboutcnt{
+    color: #26BAFF;
+    padding-left: 7px;
+}
+
+.docleft p {
+    color: #232044;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    padding: 30px 0px 0px 0px;
+}
