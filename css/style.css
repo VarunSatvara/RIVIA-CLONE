@@ -283,6 +283,7 @@ html {
     overflow: auto;
     margin: 0;
     background-color: #232044;
+    padding: 20px 0px 60px 0px;
 }
 
 .secthird {
@@ -373,4 +374,61 @@ html {
     line-height: 26px;
     margin: 0;
     padding-right: 20px;
+}
+
+.sectionfive {
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+    padding: 50px 0px;
+}
+
+.features {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    padding: 20px;
+}
+
+.features h3 {
+    color: #232044;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    text-align: center;
+}
+.features p{
+    color: #232044;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    text-align: center;
+    line-height: 25px;
+    padding: 0px 170px;
+}
+.tableul{
+    overflow: auto;
+    margin: auto;
+}
+.ulline {
+    width: 120px;
+    height: 5px;
+    background-color: #26BAFF;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ultwo{
+    width: 7px;
+    height: 5px;
+    background-color: #26baff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0;
+    text-align: center;
 }
