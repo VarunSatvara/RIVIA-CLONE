@@ -148,7 +148,7 @@ html {
     padding: 25px 35px;
     border: 2px solid #26BAFF;
     background-color: #26BAFF;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 3px;
 }
 
 .button:hover {
@@ -162,7 +162,7 @@ html {
     font-family: "Montserrat", sans-serif;
     padding: 25px 35px;
     border: 2px solid #fff;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 3px;
     margin-left: 20px;
 }
 
@@ -205,7 +205,7 @@ html {
     padding: 25px 35px;
     border: 2px solid #26BAFF;
     background-color: #26BAFF;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 3px;
 
 }
 
@@ -217,7 +217,7 @@ html {
     padding: 25px 35px;
     border: 2px solid #26BAFF;
     background-color: #232044;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 3px;
     margin-left: 10px;
 
 }
@@ -435,7 +435,8 @@ html {
     padding: 0;
     text-align: center;
 }
-.sectionsix{
+
+.sectionsix {
     width: 100%;
     margin: 0;
     overflow: auto;
@@ -461,7 +462,7 @@ html {
     font-family: "Montserrat", sans-serif;
     letter-spacing: normal;
     margin: 0;
-    padding:20px 0px; 
+    padding: 20px 0px;
 }
 
 .imageone p {
@@ -487,7 +488,7 @@ html {
     font-family: "Montserrat", sans-serif;
     letter-spacing: normal;
     margin: 0;
-    padding:20px 0px; 
+    padding: 20px 0px;
 }
 
 .imagetwo p {
@@ -499,4 +500,129 @@ html {
     margin: 0;
     padding: 0px;
     line-height: 26px;
+}
+
+.sectionseven {
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+    padding: 50px 0px;
+}
+
+.secseven {
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+    padding: 20px;
+}
+
+.secseven h3 {
+    color: #232044;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    text-align: center;
+}
+
+.secseven p {
+    color: #232044;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    text-align: center;
+    line-height: 25px;
+    padding: 0px 170px;
+    margin: 0;
+}
+
+.buttonraw {
+    text-align: center;
+    overflow: auto;
+    margin: auto;
+    display: table;
+    padding: 80px 0px 80px;
+}
+
+.buttonraw li {
+    display: inline-block;
+}
+
+.buttonraw a {
+    text-decoration: none;
+}
+
+.btnraw {
+    color: #26baff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    padding: 20px 15px;
+    background-color: #242047;
+}
+
+.btnraw-active {
+    color: #fff;
+    background-color: #26baff;
+}
+
+.photogallery {
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+}
+
+.gallery {
+    width: 33.3%;
+    float: left;
+    margin: 0;
+    padding: 15px;
+}
+
+.item {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.picone {
+    background-image: url(../images/1.png);
+}
+
+.pictwo {
+    background-image: url(../images/3.png);
+}
+
+.picthree {
+    background-image: url(../images/4.png);
+}
+
+.picfour {
+    background-image: url(../images/5.png);
+}
+
+.picfive {
+    background-image: url(../images/6.png);
+}
+
+.picsix {
+    background-image: url(../images/7.png);
+}
+
+.picseven {
+    background-image: url(../images/8.png);
+
+}
+
+.piceight {
+    background-image: url(../images/9.png);
+
+}
+
+.picnine {
+    background-image: url(../images/2.png);
 }
