@@ -667,3 +667,151 @@ html {
     font-weight: 500;
     margin: 0;
 }
+
+.sectioneight {
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+    padding: 50px 0px;
+}
+
+.seceight {
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+    padding: 20px;
+}
+
+.seceight h3 {
+    color: #232044;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    text-align: center;
+}
+
+.seceight p {
+    color: #232044;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    text-align: center;
+    line-height: 25px;
+    padding: 0px 170px;
+    margin: 0;
+}
+
+.clientone {
+    background-image: url(../images/team1.jpg);
+}
+
+.clientone p {
+    color: #232044;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    text-align: center;
+    line-height: 25px;
+}
+
+.imagegallery {
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+    padding: 80px 0px 50px 0px;
+}
+
+.gallerypart {
+    width: 33.3%;
+    float: left;
+    margin: 0;
+    padding: 15px;
+}
+
+.sameuser {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+    margin: 0;
+}
+
+.clientname h2 {
+    color:#232044;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    padding: 10px 0px 8px 5px;
+    margin: 0;
+}
+
+.clientname h4 {
+    color: #232044;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    padding: 0px 0px 8px 5px;
+    margin: 0;
+}
+
+.clienttwo {
+    background-image: url(../images/team2.jpg);
+}
+
+.clientthree {
+    background-image: url(../images/team3.jpg);
+}
+
+.clientfour {
+    background-image: url(../images/team4.jpg);
+}
+
+.clientfive {
+    background-image: url(../images/team5.jpg);
+}
+
+.clientsix {
+    background-image: url(../images/team6.jpg);
+}
+.sectionnine {
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+    background-color: #f6f6f6;
+}
+
+.secnine {
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+.description{
+    width: 50%;
+    float: left;
+    margin: 0;
+    padding: 200px 50px;
+}
+.description h3{
+    color: #232044;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+}
+.description p{
+    color: #232044;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    padding-right: 180px;
+    line-height: 27px;
+}
