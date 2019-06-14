@@ -741,7 +741,7 @@ html {
 }
 
 .clientname h2 {
-    color:#232044;
+    color: #232044;
     font-size: 26px;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
@@ -779,6 +779,7 @@ html {
 .clientsix {
     background-image: url(../images/team6.jpg);
 }
+
 .sectionnine {
     width: 100%;
     margin: 0;
@@ -790,14 +791,17 @@ html {
     width: 90%;
     margin: auto;
     overflow: auto;
+    padding: 50px 0px;
 }
-.description{
-    width: 50%;
+
+.description {
+    width: 40%;
     float: left;
     margin: 0;
-    padding: 200px 50px;
+    padding: 100px 50px;
 }
-.description h3{
+
+.description h3 {
     color: #232044;
     font-size: 32px;
     font-weight: 700;
@@ -805,7 +809,8 @@ html {
     letter-spacing: normal;
     margin: 0;
 }
-.description p{
+
+.description p {
     color: #232044;
     font-size: 16px;
     font-weight: 600;
@@ -814,4 +819,77 @@ html {
     margin: 0;
     padding-right: 180px;
     line-height: 27px;
+}
+
+.card-contaner {
+    width: 60%;
+    overflow: auto;
+}
+
+.card {
+    width: 33.33%;
+    overflow: hidden;
+    padding: 10px;
+    float: left;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 1px -1px 5px 1px #80808087;
+}
+
+.card-head::after {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: -65px;
+    width: 100%;
+    height: 160px;
+    background-color: #26BAFF;
+    border-radius: 70px;
+    transform: rotate(30deg);
+    overflow: hidden;
+    z-index: -1;
+}
+
+.card-head h3,
+h4 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+}
+
+.month {
+    font-size: 16px;
+}
+
+.card-list li {
+    list-style: none;
+    padding: 15px 0px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+
+}
+
+.card-list ul {
+    padding: 0;
+}
+
+.card-btn {
+    text-align: center;
+}
+
+.btn {
+    border: 3px solid #26BAFF;
+    padding: 14px 30px;
+    background-color: transparent;
+    border-radius: 5px;
 }
