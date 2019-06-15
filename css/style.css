@@ -956,8 +956,15 @@ h4 {
     width: 33.33%;
     float: left;
     margin: 0;
-    padding: 20px;
     box-sizing: border-box;
+    padding: 20px;
+
+}
+
+
+.card-blog:hover {
+    box-shadow: 0px 0px 20px 0px grey;
+    margin: 0;
 }
 
 .cardimg {
@@ -990,11 +997,7 @@ h4 {
     border: 1px solid lightgrey;
 }
 
-.cardpart:hover {
-    box-shadow: 0px 0px 20px 0px grey;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 
 .samedoc h2 {
     color: #212529;
@@ -1041,4 +1044,81 @@ h4 {
 .readbtn:hover {
     color: #000;
     background-color: transparent;
+}
+
+.form-blog {
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+    padding: 50px 0px;
+}
+
+.form-container {
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+    padding: 50px 0px;
+}
+
+.form-fluid {
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 20px 0px grey;
+    padding: 30px 50px;
+}
+
+.form-doc {
+    width: 50%;
+    float: left;
+    margin: 0;
+}
+
+.form-doc h3 {
+    color: #5b6b7a;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    text-align: left;
+    margin: 0;
+    padding: 10px 0px 20px 0px;
+}
+
+.bottomborder {
+    border-bottom: 1px solid #5b6b7a;
+    padding: 5px 0px;
+}
+
+.textnone {
+    height: 30px;
+    width: 100%;
+    border-style: none;
+    outline: none;
+}
+
+.sendbtn {
+    padding: 20px 40px;
+    border-style: none;
+    background-color: transparent;
+    border: 1px solid #5b6b7a;
+    margin-top: 30px;
+}
+
+.form-icon {
+    width: 50%;
+    float: left;
+    margin: 0;
+    padding: 10px 100px;
+}
+
+.form-icon p {
+    color: #212529;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    padding: 50px 20px 70px 20px;
 }
