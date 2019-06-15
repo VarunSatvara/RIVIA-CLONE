@@ -1122,3 +1122,54 @@ h4 {
     margin: 0;
     padding: 50px 20px 70px 20px;
 }
+
+.footer {
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+    background-color: #242047;
+    padding: 50px;
+}
+
+.sm-footer {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+.right-footer {
+    float: right;
+    margin: 0;
+}
+
+.footer-icon {
+    color: #fff;
+    float: left;
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.fone {
+    height: 40px;
+    width: 40px;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.left-footer {
+    float: left;
+    margin: 0;
+}
+
+.left-footer p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+}
