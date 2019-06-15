@@ -509,14 +509,14 @@ html {
     padding: 50px 0px;
 }
 
-.secseven {
+.samehead {
     width: 90%;
     margin: auto;
     overflow: auto;
     padding: 20px;
 }
 
-.secseven h3 {
+.samehead h3 {
     color: #232044;
     font-size: 32px;
     font-weight: 700;
@@ -526,7 +526,7 @@ html {
     text-align: center;
 }
 
-.secseven p {
+.samehead p {
     color: #232044;
     font-size: 16px;
     font-weight: 600;
@@ -675,35 +675,6 @@ html {
     padding: 50px 0px;
 }
 
-.seceight {
-    width: 90%;
-    margin: auto;
-    overflow: auto;
-    padding: 20px;
-}
-
-.seceight h3 {
-    color: #232044;
-    font-size: 32px;
-    font-weight: 700;
-    font-family: "Montserrat", sans-serif;
-    letter-spacing: normal;
-    margin: 0;
-    text-align: center;
-}
-
-.seceight p {
-    color: #232044;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: "Montserrat", sans-serif;
-    letter-spacing: normal;
-    text-align: center;
-    line-height: 25px;
-    padding: 0px 170px;
-    margin: 0;
-}
-
 .clientone {
     background-image: url(../images/team1.jpg);
 }
@@ -817,11 +788,11 @@ html {
     font-family: "Montserrat", sans-serif;
     letter-spacing: normal;
     margin: 0;
-    padding-right: 180px;
+    padding-right: 0px;
     line-height: 27px;
 }
 
-.card-contaner {
+.card-container {
     width: 60%;
     overflow: auto;
 }
@@ -920,7 +891,8 @@ h4 {
     border-radius: 50%;
     margin: auto;
 }
-.aboutus{
+
+.aboutus {
     padding: 30px 0px;
 }
 
@@ -944,7 +916,7 @@ h4 {
     text-align: center;
     margin: 0;
     padding-bottom: 50px;
-    
+
 }
 
 .aboutus p {
@@ -957,4 +929,116 @@ h4 {
     text-align: center;
     line-height: 30px;
     padding: 0px 150px 0px 150px;
+}
+
+.sectionblog {
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+    padding: 70px 0px 30px 0px;
+}
+
+.sectionn-card {
+    width: 100%;
+    overflow: auto;
+    margin: auto;
+    background-color: #f6f6f6;
+}
+
+.cardbox {
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+    padding: 30px 0px;
+}
+
+.cardpart {
+    width: 33.33%;
+    float: left;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cardimg {
+    height: 190px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+
+}
+
+.cardimageone {
+    background-image: url(../images/blog1.jpg);
+}
+
+.cardimagetwo {
+    background-image: url(../images/blog2.jpg);
+}
+
+.cardimagethree {
+    background-image: url(../images/blog3.jpg);
+}
+
+.samedoc {
+    padding: 34px 16px;
+    margin: 0;
+    background-color: #fff;
+    border: 1px solid lightgrey;
+}
+
+.cardpart:hover {
+    box-shadow: 0px 0px 20px 0px grey;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.samedoc h2 {
+    color: #212529;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    text-align: center;
+
+}
+
+.samedoc p {
+    color: #212529;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.bottom-btn {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.bottom-btn a {
+    text-decoration: none;
+}
+
+.readbtn {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px 10px;
+    border: 2px solid #26BAFF;
+    background-color: #26BAFF;
+    border-radius: 3px;
+}
+
+.readbtn:hover {
+    color: #000;
+    background-color: transparent;
 }
