@@ -440,22 +440,64 @@ html {
     width: 100%;
     margin: 0;
     overflow: auto;
-    padding: 80px 0px 50px 0px;
+    padding: 80px 0px;
+}
+
+.image-partion {
+    width: 90%;
+    margin: auto;
+    overflow: auto;
 }
 
 .imagepart {
     width: 33.3%;
     float: left;
-    padding: 17px;
     margin: 0;
+    padding: 15px 0px;
 }
 
-.imageone {
+.imagepart:hover {
+    background-color: #232044;
+}
+
+.imagepart:hover .sameimgpart h4 {
+    color: #fff;
+}
+
+.imagepart:hover .sameimgpart p {
+    color: #fff;
+}
+
+.sameimgpart {
     text-align: center;
     margin: 0;
 }
 
-.imageone h4 {
+.show-cion {
+    display: block;
+    margin: 0px auto;
+    height: 75px;
+    width: 78px;
+}
+
+.hide-icon {
+    display: none;
+    margin: 0px auto;
+    height: 75px;
+    width: 80px;
+}
+
+.sameimgpart:hover .show-icon {
+    display: none;
+}
+
+.sameimgpart:hover .hide-icon {
+    display: block;
+}
+
+.imgswap {}
+
+.sameimgpart h4 {
     color: #232044;
     font-size: 20px;
     font-weight: 600;
@@ -465,7 +507,7 @@ html {
     padding: 20px 0px;
 }
 
-.imageone p {
+.sameimgpart p {
     color: #232044;
     font-size: 14px;
     font-weight: 400;
@@ -473,32 +515,6 @@ html {
     letter-spacing: normal;
     margin: 0;
     padding: 0px 0px 80px 0px;
-    line-height: 26px;
-}
-
-.imagetwo {
-    text-align: center;
-    margin: 0;
-}
-
-.imagetwo h4 {
-    color: #232044;
-    font-size: 20px;
-    font-weight: 600;
-    font-family: "Montserrat", sans-serif;
-    letter-spacing: normal;
-    margin: 0;
-    padding: 20px 0px;
-}
-
-.imagetwo p {
-    color: #232044;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Montserrat", sans-serif;
-    letter-spacing: normal;
-    margin: 0;
-    padding: 0px;
     line-height: 26px;
 }
 
