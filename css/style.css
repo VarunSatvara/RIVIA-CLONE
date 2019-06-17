@@ -495,7 +495,9 @@ html {
     display: block;
 }
 
-.imgswap {}
+.imgswap {
+
+}
 
 .sameimgpart h4 {
     color: #232044;
@@ -1127,6 +1129,9 @@ h4 {
     float: left;
     margin: 0;
     padding: 10px 100px;
+}
+.form-icon tr:hover{
+     box-shadow: 0px 0px 20px 0px grey;
 }
 
 .form-icon p {
