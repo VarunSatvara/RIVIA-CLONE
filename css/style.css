@@ -164,10 +164,33 @@ html {
     border: 2px solid #fff;
     border-radius: 3px;
     margin-left: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.cnbtn:hover::before {
+    height: 100%;
+    width: 100%;
+}
+
+.cnbtn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    z-index: -1;
+    background-color: #26BAFF;
+    transition: .5s all;
 }
 
 .cnbtn:hover {
     background-color: #26BAFF;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
 
 .sectiontwo {
@@ -219,15 +242,41 @@ html {
     background-color: #232044;
     border-radius: 3px;
     margin-left: 10px;
-
+    z-index: 1;
+    position: relative;
 }
 
-.missionbtn:hover {
-    background-color: #232044;
+.visionbtn:hover::before {
+    height: 100%;
+    width: 100%;
+}
+
+.visionbtn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    z-index: -1;
+    background-color: #26BAFF;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
 
 .visionbtn:hover {
     background-color: #26BAFF;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+
+.missionbtn:hover {
+    background-color: #232044;
 }
 
 .imgright {
@@ -767,6 +816,26 @@ html {
     background-image: url(../images/team1.jpg);
 }
 
+.clienttwo {
+    background-image: url(../images/team2.jpg);
+}
+
+.clientthree {
+    background-image: url(../images/team3.jpg);
+}
+
+.clientfour {
+    background-image: url(../images/team4.jpg);
+}
+
+.clientfive {
+    background-image: url(../images/team5.jpg);
+}
+
+.clientsix {
+    background-image: url(../images/team6.jpg);
+}
+
 .clientone p {
     color: #232044;
     font-size: 16px;
@@ -789,6 +858,7 @@ html {
     float: left;
     margin: 0;
     padding: 15px;
+    overflow: hidden;
 }
 
 .sameuser {
@@ -797,6 +867,14 @@ html {
     background-size: cover;
     background-position: top;
     margin: 0;
+}
+
+.sameuser:hover {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transform: scale(1.1);
 }
 
 .clientname h2 {
@@ -817,26 +895,6 @@ html {
     letter-spacing: normal;
     padding: 0px 0px 8px 5px;
     margin: 0;
-}
-
-.clienttwo {
-    background-image: url(../images/team2.jpg);
-}
-
-.clientthree {
-    background-image: url(../images/team3.jpg);
-}
-
-.clientfour {
-    background-image: url(../images/team4.jpg);
-}
-
-.clientfive {
-    background-image: url(../images/team5.jpg);
-}
-
-.clientsix {
-    background-image: url(../images/team6.jpg);
 }
 
 .sectionnine {
