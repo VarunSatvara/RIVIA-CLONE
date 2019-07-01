@@ -440,51 +440,75 @@ html {
     width: 100%;
     margin: 0;
     overflow: auto;
-    padding: 80px 0px;
 }
 
 .image-partion {
     width: 90%;
     margin: auto;
     overflow: auto;
+    padding: 50px 20px;
 }
 
 .imagepart {
     width: 33.3%;
     float: left;
-    margin: 0;
-    padding: 15px 0px;
-}
-
-.imagepart:hover {
-    background-color: #232044;
-}
-
-.imagepart:hover .sameimgpart h4 {
-    color: #fff;
-}
-
-.imagepart:hover .sameimgpart p {
-    color: #fff;
+    text-align: center;
 }
 
 .sameimgpart {
-    text-align: center;
+    height: 300px;
+    width: 300px;
     margin: 0;
+    position: relative;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease;
 }
 
-.show-cion {
-    display: block;
-    margin: 0px auto;
-    height: 75px;
-    width: 78px;
+.sameimgpart:hover {
+    background-color: #232044;
+    transform: translate(0px, -10px);
+}
+
+.sameimgpart:hover h4,
+.sameimgpart:hover p {
+    color: #fff !important;
+
+}
+
+.doclayout h4 {
+    color: #232044;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.doclayout p {
+    color: #232044;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    padding: 12px 10px;
+
+}
+
+.sameimgpart:hover .doc {
+    color: #fff;
 }
 
 .hide-icon {
     display: none;
     margin: 0px auto;
-    height: 75px;
-    width: 80px;
+}
+
+.imgswap {
+    padding-top: 50px;
 }
 
 .sameimgpart:hover .show-icon {
@@ -495,29 +519,75 @@ html {
     display: block;
 }
 
-.imgswap {
-
+.line1::after {
+    content: "";
+    position: absolute;
+    background-color: #26baff;
+    width: 0px;
+    height: 2px;
+    top: -15px;
+    right: -15px;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease;
 }
 
-.sameimgpart h4 {
-    color: #232044;
-    font-size: 20px;
-    font-weight: 600;
-    font-family: "Montserrat", sans-serif;
-    letter-spacing: normal;
-    margin: 0;
-    padding: 20px 0px;
+.line1::before {
+    content: "";
+    position: absolute;
+    background-color: #26baff;
+    width: 2px;
+    height: 0px;
+    top: -15px;
+    right: -15px;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease;
 }
 
-.sameimgpart p {
-    color: #232044;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Montserrat", sans-serif;
-    letter-spacing: normal;
+.sameimgpart:hover > .line1::before {
+    height: 80px;
+}
+
+.sameimgpart:hover > .line1::after {
+    width: 80px;
+}
+
+.sameimgpart:hover > .line2::before {
+    width: 80px;
+}
+
+.sameimgpart:hover > .line2::after {
+    height: 80px;
+}
+
+
+.line2::after {
+    content: "";
+    position: absolute;
+    background-color: #26baff;
+    width: 2px;
+    height: 0;
+    bottom: -15px;
+    left: -15px;
     margin: 0;
-    padding: 0px 0px 80px 0px;
-    line-height: 26px;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+.line2::before {
+    content: "";
+    position: absolute;
+    background-color: #26baff;
+    width: 0;
+    height: 2px;
+    bottom: -15px;
+    left: -15px;
+    margin: 0;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease;
 }
 
 .sectionseven {
@@ -1130,8 +1200,9 @@ h4 {
     margin: 0;
     padding: 10px 100px;
 }
-.form-icon tr:hover{
-     box-shadow: 0px 0px 20px 0px grey;
+
+.form-icon tr:hover {
+    box-shadow: 0px 0px 20px 0px grey;
 }
 
 .form-icon p {
