@@ -859,15 +859,19 @@ html {
     margin: 0;
     padding: 15px;
     overflow: hidden;
+    
 }
-
+.hiddenimg{
+    overflow: hidden;
+}
 .sameuser {
     height: 350px;
     width: 100%;
     background-size: cover;
     background-position: top;
     margin: 0;
-}
+    transition-duration: 0.5s;
+    }
 
 .sameuser:hover {
     transition-property: all;
