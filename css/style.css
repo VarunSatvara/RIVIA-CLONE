@@ -185,14 +185,6 @@ html {
     transition: .5s all;
 }
 
-.cnbtn:hover {
-    background-color: #26BAFF;
-    transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-}
-
 .sectiontwo {
     width: 100%;
     margin: 0;
@@ -265,15 +257,6 @@ html {
     transition-timing-function: ease;
     transition-delay: 0s;
 }
-
-.visionbtn:hover {
-    background-color: #26BAFF;
-    transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-}
-
 
 .missionbtn:hover {
     background-color: #232044;
@@ -859,11 +842,13 @@ html {
     margin: 0;
     padding: 15px;
     overflow: hidden;
-    
+
 }
-.hiddenimg{
+
+.hiddenimg {
     overflow: hidden;
 }
+
 .sameuser {
     height: 350px;
     width: 100%;
@@ -871,7 +856,7 @@ html {
     background-position: top;
     margin: 0;
     transition-duration: 0.5s;
-    }
+}
 
 .sameuser:hover {
     transition-property: all;
@@ -1147,8 +1132,6 @@ h4 {
     border: 1px solid lightgrey;
 }
 
-
-
 .samedoc h2 {
     color: #212529;
     font-size: 22px;
@@ -1157,7 +1140,6 @@ h4 {
     letter-spacing: normal;
     margin: 0;
     text-align: center;
-
 }
 
 .samedoc p {
